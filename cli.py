@@ -1,12 +1,12 @@
 from pathlib import Path
 import os
 import sys
-from typing import Dict
+import time
 
 import yaml
 
 
-def find_presets() -> Dict[int, str]:
+def find_presets() -> dict[int, str]:
     with Path("config.yaml").open("r") as file:
         presets = {}
 
@@ -20,7 +20,7 @@ def find_presets() -> Dict[int, str]:
     return presets
 
 
-def read_target(presets: Dict[int, str]) -> str:
+def read_target(presets: dict[int, str]) -> str:
     preset = input()
     return preset if not preset.isdigit() else presets[int(preset)]
 
@@ -37,6 +37,8 @@ def trigger_desk(targete: str) -> None:
 
 if __name__ == "__main__":
     print("\nControl your Idasen Desk!")
+    print("\nWait a few seconds to let the desk connect.")
+    time.sleep(8)
 
     presets = find_presets()
 
