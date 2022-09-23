@@ -1,4 +1,4 @@
 @ECHO OFF
 
 
-POWERSHELL -NoExit -Command .venv/Scripts/activate ; py ./ux.py
+POWERSHELL -NoExit -Command .venv/Scripts/activate ; py ./cli.py
