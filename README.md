@@ -14,16 +14,13 @@ Control your IKEA [Idasen](https://www.ikea.com/us/en/p/idasen-desk-sit-stand-bl
 
 - Download the [latest release](https://github.com/gliptal/idasen-cli/releases/latest).
 - Unzip the package.
-
-The following step isn't required, but *strongly* reccomended:
-
 - Create a Python virtual environment in `idasen-cli`'s directory:
 
     `python -m venv .venv`
 
 ## CONFIGURE
 
-- Pair to your desk via Bluetooth.
+- Pair your PC to your desk via Bluetooth.
 
 - Configure for Windows Terminal:
 
@@ -33,10 +30,10 @@ The following step isn't required, but *strongly* reccomended:
 
 - Configure [config.bat](config.bat):
 
-    | OPTION        | DESCRIPTION                                                                                                                  |
-    |---------------|------------------------------------------------------------------------------------------------------------------------------|
-    | `mac_address` | your desk's MAC address: this should never have to be changed once set                                                       |
-    | `favourites`  | your desk height settings (see [idasen-controller's configuration](https://github.com/rhyst/idasen-controller#configuration) |
+    | OPTION        | DESCRIPTION                                                                                                                   |
+    |---------------|-------------------------------------------------------------------------------------------------------------------------------|
+    | `mac_address` | your desk's MAC address: this should never have to be changed once set                                                        |
+    | `favourites`  | your desk height settings (see [idasen-controller's configuration](https://github.com/rhyst/idasen-controller#configuration)) |
 
 ## USAGE
 
@@ -47,6 +44,8 @@ The following step isn't required, but *strongly* reccomended:
 - Interact with the CLI.
 
     Specify a preset either by name (like "sit" or "stand") or id. Type `status` or `0` to get the current desk height.
+
+    ![usage](usage.gif)
 
 ## ACKNOWLEDGMENTS
 
