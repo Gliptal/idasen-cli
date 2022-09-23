@@ -23,7 +23,7 @@ The following step isn't required, but *strongly* reccomended:
 
 ## CONFIGURE
 
-- Pair
+- Pair to your desk via Bluetooth.
 
 - Configure for Windows Terminal:
 
@@ -44,7 +44,9 @@ The following step isn't required, but *strongly* reccomended:
 
     A new Windows Terminal instance will open with two tabs: the left tab is the `idasen-controller` server that keeps a connection open with your desk; the right tab is the minimal `idasen-cli`.
 
-- Interact with the CLI by specifying a preset either by name (like "sit" or "stand") or id. Type `status` or `0` to get the current desk height.
+- Interact with the CLI.
+
+    Specify a preset either by name (like "sit" or "stand") or id. Type `status` or `0` to get the current desk height.
 
 ## ACKNOWLEDGMENTS
 
