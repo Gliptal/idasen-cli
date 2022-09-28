@@ -1,4 +1,4 @@
-![Idasen Cli](idasen-cli.png)
+![Idasen Cli](docs/idasen-cli.png)
 
 ## IDASEN CLI
 
@@ -45,7 +45,7 @@ Control your IKEA [Idasen](https://www.ikea.com/us/en/p/idasen-desk-sit-stand-bl
 
     Specify a preset either by name (like "sit" or "stand") or id. Type `status` or `0` to get the current desk height.
 
-    ![usage](usage.gif)
+    ![usage](docs/usage.gif)
 
 ## ACKNOWLEDGMENTS
 

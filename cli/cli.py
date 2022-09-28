@@ -7,7 +7,7 @@ import yaml
 
 
 def find_presets() -> dict[int, str]:
-    with Path("config.yaml").open("r") as file:
+    with Path("../cli/config.yaml").open("r") as file:
         presets = {}
 
         config = yaml.safe_load(file)
@@ -38,7 +38,7 @@ def trigger_desk(targete: str) -> None:
 if __name__ == "__main__":
     print("\nControl your Idasen Desk!")
     print("\nWait a few seconds to let the desk connect.")
-    time.sleep(8)
+    time.sleep(6)
 
     presets = find_presets()
 
