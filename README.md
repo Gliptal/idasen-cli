@@ -1,5 +1,7 @@
 ![Idasen Cli](docs/idasen-cli.png)
 
+This project still works (04/08/2023), but has been deprecated in favour of [Idasen Tray](https://github.com/Gliptal/idasen-tray).
+
 ## IDASEN CLI
 
 Control your IKEA [Idasen](https://www.ikea.com/us/en/p/idasen-desk-sit-stand-black-dark-gray-s79280998/) standing desk from a minimal CLI. This project is built around [idasen-controller](https://github.com/rhyst/idasen-controller) by [rhyst](https://github.com/rhyst).

@@ -1,4 +1,4 @@
 @ECHO OFF
 
 
-WT -d %CD% -p "PowerShell 5" --title "Server" server.bat ; nt -d %CD% -p "PowerShell 5" --title "Idasen CLI" client.bat
+WT -d %CD% -p "PowerShell 5" --title "Idasen Server" "%CD%/server.bat" ; nt -d %CD% -p "PowerShell 5" --title "Idasen Client" "%CD%/client.bat"
